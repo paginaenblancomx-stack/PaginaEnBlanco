@@ -1,0 +1,149 @@
+/* General */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9e6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #f7c948;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Hero */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #a0d8f1;
+}
+
+#hero h2 {
+    color: #f39c12;
+    font-size: 2rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero-img {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+/* Servicios */
+#servicios {
+    padding: 40px 20px;
+    background-color: #d5f4e6;
+}
+
+#servicios h2 {
+    color: #27ae60;
+    text-align: center;
+}
+
+.servicio {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.servicio h3 {
+    color: #3498db;
+}
+
+.servicio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicio ul li {
+    margin: 10px 0;
+}
+
+/* Proceso */
+#proceso {
+    padding: 40px 20px;
+    background-color: #fce5cd;
+    text-align: center;
+}
+
+#proceso h2 {
+    color: #e67e22;
+}
+
+#proceso ul {
+    list-style: none;
+    padding: 0;
+}
+
+#proceso ul li {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Contacto */
+#contacto {
+    background-color: #ffe6f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7c948;
+    color: #2c3e50;
+    font-weight: bold;
+}
